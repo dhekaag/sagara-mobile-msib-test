@@ -38,3 +38,8 @@ Sagara MSIB Mobile Test
    ```bash
    flutter run
    ```
+
+## Mockup App
+
+
+![weather_app_mockup](https://github.com/user-attachments/assets/16d4f56c-0235-4a35-8561-927bc286f9a3)
