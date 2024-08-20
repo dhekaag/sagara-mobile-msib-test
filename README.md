@@ -1,16 +1,38 @@
-# wheather_forecast_app
+# Weather Forecast App
 
-A new Flutter project.
+Sagara MSIB Mobile Test
 
-## Getting Started
+## Tech Stack
 
-This project is a starting point for a Flutter application.
+- State Management [GetX](https://pub.dev/packages/get)
+- HTTP networking package [Dio](https://pub.dev/packages/dio)
+- Animation Library [Lottie](https://pub.dev/packages/lottie)
 
-A few resources to get you started if this is your first Flutter project:
+## Installation and Setup
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone Repository :
+   ```bash
+   git clone https://github.com/dhekaag/sagara-mobile-msib-test.git
+   ```
+2. Set up .env file:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Create a .env file at the root of your project.
+- Add your OpenWeatherMap API key:
+
+  ```
+  API_KEY=your_api_key_weather_map
+  ```
+
+- Get your API key from https://home.openweathermap.org/api_keys. Create an account if you don't have one.
+
+3. Install dependencies:
+
+```bash
+  flutter pub get
+```
+
+4. Run the app:
+
+```bash
+  flutter run
+```

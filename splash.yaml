@@ -1,0 +1,19 @@
+# flutter_native_splash-development.yaml
+flutter_native_splash:
+  color: "#DEEDFA"
+  image: assets/images/weather.png
+  # branding: assets/images/splash400.png
+  color_dark: "#DEEDFA"
+  image_dark: assets/images/weather.png
+  # branding_dark: assets/images/splash400.png
+  ios: true
+
+  android_12:
+    image: assets/images/weather.png
+    icon_background_color: "#DEEDFA"
+    image_dark: assets/images/weather.png
+    icon_background_color_dark: "#DEEDFA"
+
+  web: false
+
+  fullscreen: true
