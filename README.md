@@ -11,9 +11,11 @@ Sagara MSIB Mobile Test
 ## Installation and Setup
 
 1. Clone Repository :
+
    ```bash
    git clone https://github.com/dhekaag/sagara-mobile-msib-test.git
    ```
+
 2. Set up .env file:
 
 - Create a .env file at the root of your project.
@@ -27,12 +29,12 @@ Sagara MSIB Mobile Test
 
 3. Install dependencies:
 
-```bash
-  flutter pub get
-```
+   ```bash
+   flutter pub get
+   ```
 
 4. Run the app:
 
-```bash
-  flutter run
-```
+   ```bash
+   flutter run
+   ```
